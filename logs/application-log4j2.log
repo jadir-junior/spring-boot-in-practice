@@ -1,0 +1,659 @@
+2023-05-11 08:30:51.345 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:30:51.405 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 21172 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:30:51.412 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:30:51.415 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:30:52.648 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:30:52.731 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2023-05-11 08:30:53.794 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:30:53.795 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:30:53.796 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:30:53.926 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:30:53.972 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:30:54.259 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:30:54.262 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:30:54.503 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:30:54.620 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:30:55.117 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:30:55.326 [ERROR] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Failed to initialize JPA EntityManagerFactory: Entity 'com.jj.springbootinpractice.user.User' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2023-05-11 08:30:55.537 [ WARN] [  restartedMain] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:30:55.538 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:30:55.541 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:30:55.546 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Stopping service [Tomcat]
+2023-05-11 08:31:58.272 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:31:58.342 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 5920 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:31:58.348 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:31:58.350 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:31:59.631 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:31:59.721 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-05-11 08:32:00.751 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:32:00.753 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:32:00.754 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:32:00.876 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:32:00.931 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:32:01.225 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:32:01.228 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:32:01.475 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:32:01.604 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:32:02.142 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:32:03.098 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:32:03.231 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "drop table if exists user cascade " via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "drop table if exists user cascade " via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:419)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:403)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:272)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:178)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:149)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:242)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseDrop(Parser.java:2188)
+	at org.h2.command.Parser.parsePrepared(Parser.java:776)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:32:03.248 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:502)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:486)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:363)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:176)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:128)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id)) [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:9253)
+	at org.h2.command.Parser.parseCreate(Parser.java:6784)
+	at org.h2.command.Parser.parsePrepared(Parser.java:763)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:32:03.252 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:32:03.262 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:32:04.364 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:32:04.409 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 6.642 seconds (process running for 8.264)
+2023-05-11 08:32:04.450 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:32:04.460 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:34:03.845 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:34:03.846 [ INFO] [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl :HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-05-11 08:34:04.023 [ERROR] [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl :HHH000478: Unsuccessful: drop table if exists user cascade 
+2023-05-11 08:34:04.235 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:34:04.236 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:34:04.377 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:34:09.315 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:34:09.371 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 7748 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:34:09.377 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:34:09.379 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:34:10.421 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:34:58.659 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:34:58.702 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 12652 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:34:58.710 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:34:58.712 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:34:59.831 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:34:59.918 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:35:00.828 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:35:00.829 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:35:00.830 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:35:00.936 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:35:00.977 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:35:01.242 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:35:01.244 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:35:01.471 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:35:01.563 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:35:02.005 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:35:02.791 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:35:02.938 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "drop table if exists user cascade " via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "drop table if exists user cascade " via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:419)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:403)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:272)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:178)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:149)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:242)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseDrop(Parser.java:2188)
+	at org.h2.command.Parser.parsePrepared(Parser.java:776)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:35:02.956 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:502)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:486)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:363)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:176)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:128)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id)) [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:9253)
+	at org.h2.command.Parser.parseCreate(Parser.java:6784)
+	at org.h2.command.Parser.parsePrepared(Parser.java:763)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:35:02.962 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:35:02.971 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:35:04.117 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:35:04.160 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.899 seconds (process running for 7.314)
+2023-05-11 08:35:04.201 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:35:04.213 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:39:02.738 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:39:02.739 [ INFO] [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl :HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-05-11 08:39:02.919 [ERROR] [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl :HHH000478: Unsuccessful: drop table if exists user cascade 
+2023-05-11 08:39:03.135 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:39:03.135 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:39:03.277 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:39:06.676 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:39:06.731 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 3128 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:39:06.736 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:39:06.738 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:39:07.717 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:39:07.792 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:39:08.697 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:39:08.699 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:39:08.702 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:39:08.792 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:39:08.832 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:39:09.103 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:39:09.106 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:39:09.307 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:39:09.402 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:39:09.861 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:39:10.724 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:39:10.915 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id)) [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:9253)
+	at org.h2.command.Parser.parseCreate(Parser.java:6784)
+	at org.h2.command.Parser.parsePrepared(Parser.java:763)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:39:10.919 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:39:10.931 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:39:12.021 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:39:12.070 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.779 seconds (process running for 7.149)
+2023-05-11 08:39:12.110 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:39:12.125 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:41:07.122 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:41:07.516 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:41:07.517 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:41:07.656 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:42:11.390 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:42:11.442 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 23464 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:42:11.448 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:42:11.450 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:42:12.608 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:42:12.713 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:42:13.764 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:42:13.766 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:42:13.767 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:42:13.878 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:42:13.923 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:42:14.216 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:42:14.219 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:42:14.404 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:42:14.508 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:42:14.967 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:42:15.764 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:42:15.923 [ WARN] [  restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     :GenerationTarget encountered exception accepting command : Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at com.jj.springbootinpractice.SpringBootInPracticeApplication.main(SpringBootInPracticeApplication.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id uuid not null, password varchar(255), user_name varchar(255), primary key (id)) [42001-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5656)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5616)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5645)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:9253)
+	at org.h2.command.Parser.parseCreate(Parser.java:6784)
+	at org.h2.command.Parser.parsePrepared(Parser.java:763)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 37 more
+2023-05-11 08:42:15.926 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:42:15.937 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:42:17.007 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:42:17.050 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 6.073 seconds (process running for 7.489)
+2023-05-11 08:42:17.093 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:42:17.102 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:43:40.611 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:43:40.997 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:43:40.998 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:43:41.155 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:43:46.391 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:43:46.437 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 12680 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:43:46.444 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:43:46.446 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:43:47.490 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:43:47.573 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:43:48.554 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:43:48.555 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:43:48.556 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:43:48.660 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:43:48.705 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:43:48.967 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:43:48.970 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:43:49.162 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:43:49.257 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:43:49.729 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:43:50.599 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:43:50.750 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:43:50.760 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:43:51.741 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:43:51.787 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.791 seconds (process running for 7.206)
+2023-05-11 08:43:51.828 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:43:51.839 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:44:19.445 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:44:19.841 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:44:19.841 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:44:19.984 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:44:26.911 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:44:26.975 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 22340 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:44:26.980 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:44:26.982 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:44:28.149 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:44:28.239 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:44:29.239 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:44:29.241 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:44:29.241 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:44:29.354 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:44:29.395 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:44:29.688 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:44:29.692 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:44:29.914 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:44:30.017 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:44:30.466 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:44:31.289 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:44:31.471 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:44:31.481 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:44:32.475 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:44:32.520 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 6.024 seconds (process running for 7.543)
+2023-05-11 08:44:32.563 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:44:32.592 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 08:44:32.593 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 08:44:32.603 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:45:02.246 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:45:02.638 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:45:02.639 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:45:02.776 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:45:08.064 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:45:08.122 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 7656 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:45:08.128 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:45:08.130 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:45:09.219 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:45:09.314 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:45:10.275 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:45:10.276 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:45:10.277 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:45:10.375 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:45:10.414 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:45:10.676 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:45:10.679 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:45:10.887 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:45:10.980 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:45:11.433 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:45:12.232 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:45:12.407 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:45:12.417 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:45:13.386 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:45:13.431 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.787 seconds (process running for 7.219)
+2023-05-11 08:45:13.473 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:45:13.498 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 08:45:13.499 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 08:45:13.509 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:47:13.200 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:47:13.575 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:47:13.575 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:47:13.731 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:47:18.906 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:47:18.947 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 21516 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:47:18.952 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:47:18.954 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:47:19.983 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:47:20.061 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:47:20.986 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:47:20.987 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:47:20.987 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:47:21.078 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:47:21.120 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:47:21.377 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:47:21.379 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:47:21.558 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:47:21.664 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:47:22.073 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:47:22.837 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:47:23.004 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:47:23.013 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:47:23.916 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:47:23.961 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.476 seconds (process running for 6.88)
+2023-05-11 08:47:23.997 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:47:24.018 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 08:47:24.018 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 08:47:24.019 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user2 adhere to the password policy
+2023-05-11 08:47:24.028 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 08:52:39.119 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:52:39.505 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 08:52:39.506 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 08:52:39.647 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 08:52:44.993 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 08:52:45.054 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Starting SpringBootInPracticeApplication using Java 20.0.1 with PID 1960 (C:\Projects\spring-boot-in-practice\target\classes started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 08:52:45.063 [DEBUG] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 08:52:45.067 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 08:52:46.125 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 08:52:46.218 [ INFO] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2023-05-11 08:52:47.163 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:52:47.165 [ INFO] [  restartedMain] o.a.c.c.StandardService                  :Starting service [Tomcat]
+2023-05-11 08:52:47.166 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   :Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-11 08:52:47.273 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        :Initializing Spring embedded WebApplicationContext
+2023-05-11 08:52:47.314 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 08:52:47.587 [ INFO] [  restartedMain] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 08:52:47.590 [ INFO] [  restartedMain] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 08:52:47.790 [ INFO] [  restartedMain] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 08:52:47.901 [ INFO] [  restartedMain] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 08:52:48.377 [ INFO] [  restartedMain] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 08:52:49.336 [ INFO] [  restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 08:52:49.527 [ INFO] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 08:52:49.538 [ INFO] [  restartedMain] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 08:52:50.507 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                :Starting ProtocolHandler ["http-nio-8080"]
+2023-05-11 08:52:50.550 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :Started SpringBootInPracticeApplication in 5.977 seconds (process running for 7.366)
+2023-05-11 08:52:50.595 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 08:52:50.619 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 08:52:50.620 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 08:52:50.621 [ INFO] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user2 adhere to the password policy
+2023-05-11 08:52:50.622 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user3 violates maximun repetitive rule
+2023-05-11 08:52:50.623 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 08:52:50.624 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user4 violates special character rule
+2023-05-11 08:52:50.625 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 08:52:50.635 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
