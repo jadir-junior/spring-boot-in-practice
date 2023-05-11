@@ -657,3 +657,63 @@ create table user (id uuid not null, password varchar(255), user_name varchar(25
 2023-05-11 08:52:50.624 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Password for user4 violates special character rule
 2023-05-11 08:52:50.625 [ERROR] [  restartedMain] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
 2023-05-11 08:52:50.635 [ INFO] [  restartedMain] c.j.s.SpringBootInPracticeApplication    :AppProperties{name='CourseTracker', ip='127.0.0.1', port='9000', security=Security{enabled=true, token='asddf998hhyqthgtYYtggghg9908jjh7ttr', roles=null}}
+2023-05-11 09:31:56.120 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 09:31:56.501 [ WARN] [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          :Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-11 09:31:56.502 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 09:31:56.656 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 11:01:47.642 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.SpringBootInPracticeApplicationTests]: SpringBootInPracticeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-11 11:01:48.316 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 11:01:48.361 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :Starting SpringBootInPracticeApplicationTests using Java 20.0.1 with PID 12420 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 11:01:48.365 [DEBUG] [           main] j.s.SpringBootInPracticeApplicationTests :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 11:01:48.367 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 11:01:49.400 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 11:01:49.488 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2023-05-11 11:01:50.129 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 11:01:50.229 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 11:01:50.796 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 11:01:51.096 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 11:01:51.098 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 11:01:51.126 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 11:01:52.041 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 11:01:52.200 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 11:01:52.214 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 11:01:53.599 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :Started SpringBootInPracticeApplicationTests in 5.59 seconds (process running for 7.735)
+2023-05-11 11:01:53.647 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 11:01:53.670 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 11:01:53.671 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 11:01:53.672 [ INFO] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user2 adhere to the password policy
+2023-05-11 11:01:53.673 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user3 violates maximun repetitive rule
+2023-05-11 11:01:53.674 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 11:01:53.676 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user4 violates special character rule
+2023-05-11 11:01:53.677 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 11:01:54.134 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 11:01:54.137 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 11:01:54.141 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-11 11:02:25.961 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.SpringBootInPracticeApplicationTests]: SpringBootInPracticeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-11 11:02:26.533 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-11 11:02:26.572 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :Starting SpringBootInPracticeApplicationTests using Java 20.0.1 with PID 3548 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-11 11:02:26.577 [DEBUG] [           main] j.s.SpringBootInPracticeApplicationTests :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-11 11:02:26.578 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :No active profile set, falling back to 1 default profile: "default"
+2023-05-11 11:02:27.543 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-11 11:02:27.616 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2023-05-11 11:02:28.185 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-11 11:02:28.298 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-11 11:02:28.783 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-11 11:02:29.022 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-11 11:02:29.023 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-11 11:02:29.047 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-11 11:02:29.852 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-11 11:02:30.015 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-11 11:02:30.025 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 11:02:31.149 [ INFO] [           main] j.s.SpringBootInPracticeApplicationTests :Started SpringBootInPracticeApplicationTests in 4.912 seconds (process running for 6.823)
+2023-05-11 11:02:31.194 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :A constraint violation has occurred. Violation details: [ConstraintViolationImpl{interpolatedMessage='A course should have a minimum of 1 rating', propertyPath=rating, rootBeanClass=class com.jj.springbootinpractice.course.Course, messageTemplate='A course should have a minimum of 1 rating'}].
+2023-05-11 11:02:31.214 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user do not adhere to the password policy
+2023-05-11 11:02:31.215 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violatiion details: [Password do not adhere to the specified rule]
+2023-05-11 11:02:31.217 [ INFO] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user2 adhere to the password policy
+2023-05-11 11:02:31.218 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user3 violates maximun repetitive rule
+2023-05-11 11:02:31.219 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 11:02:31.221 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Password for user4 violates special character rule
+2023-05-11 11:02:31.221 [ERROR] [           main] c.j.s.u.c.CourseCommandLineRunner        :Violation details: [Password do not adhere to the specified rule]
+2023-05-11 11:02:31.587 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-11 11:02:31.589 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-11 11:02:31.594 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
