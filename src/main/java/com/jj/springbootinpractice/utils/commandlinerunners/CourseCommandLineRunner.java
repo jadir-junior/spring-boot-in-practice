@@ -28,13 +28,15 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        createCourse();
-        createUsers();
     }
 
     public void createCourse() {
-        Course course = new Course();
-        course.setRating(0);
+         Course course = new Course(
+                "Rapid Spring Boot Application Development",
+                "Spring",
+                0,
+                "Spring Boot gives all the power of the Spring Framework without all of the complexities"
+         );
         Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
         Set<ConstraintViolation<Course>> violations = validator.validate(course);
         violations.forEach(courseConstraintViolation -> logger.error(
@@ -58,7 +60,7 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
         User user3 = new User("sbip03", "Sbip01$4UDfgggg");
         violations = validator.validate(user3);
-        logger.error("Password for user3 violates maximun repetitive rule");
+        logger.error("Password for user3 violates maximum repetitive rule");
         violations.forEach(constraintViolation -> logger.error("Violation details: [{}]", constraintViolation.getMessage()));
 
         User user4 = new User("sbip04", "Sbip014UDfgggg");
@@ -69,9 +71,9 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
     public void createCourses() {
         List<Course> courses = new ArrayList<>();
-        courses.add(new Course("Java", 5));
-        courses.add(new Course("Spring Boot", 4));
-        courses.add(new Course("Angular", 5));
+        courses.add(new Course("Head First Java", "Java", 5, "A Brain-Friendly Guide, 3rd Edition"));
+        courses.add(new Course("Spring Boot", "Spring", 4, "Spring Boot gives all the power of the Spring Framework without all of the complexities"));
+        courses.add(new Course("Angular","Front end" ,5, "Enterprise Edition"));
 
         courses.forEach((course) -> {
             courseRepository.save(course);

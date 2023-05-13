@@ -1,8 +1,10 @@
 package com.jj.springbootinpractice.course;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
-public interface CourseRepository extends JpaRepository<Course, UUID> {
+@Repository
+public interface CourseRepository extends CrudRepository<Course, UUID> {
 }
