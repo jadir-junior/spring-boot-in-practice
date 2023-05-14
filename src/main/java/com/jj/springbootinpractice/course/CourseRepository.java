@@ -15,5 +15,7 @@ public interface CourseRepository extends CrudRepository<Course, UUID> {
     Iterable<Course> findByNameOrCategory(String name, String category);
     Iterable<Course> findByNameStartsWith(String name);
     Stream<Course> streamAllByCategory(String category);
+    Iterable<Course> findAllByCategoryAndRating(String category, Integer rating);
+    Iterable<Course> findAllByRating(int rating);
 
 }

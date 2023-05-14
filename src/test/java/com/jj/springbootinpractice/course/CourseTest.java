@@ -8,12 +8,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.test.context.ActiveProfiles;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest
+@ActiveProfiles("test")
 public class CourseTest {
     @Autowired
     private CourseRepository courseRepository;
@@ -96,6 +97,12 @@ public class CourseTest {
 
         Assertions.assertThat(coursePagingRepository.findAll(customSortPageable))
                 .first().has(customSortFirstCourseCondition);
+    }
+
+    @Test
+    public void givenCoursesCreatedWhenLoadCoursesBySpringCategoryThenExpectThreeCourses() {
+        courseRepository.saveAll(getCourseList());
+        Assertions.assertThat(courseRepository.findAllByCategoryAndRating("Spring", 4)).hasSize(1);
     }
 
     private List<Course> getCourseList() {
