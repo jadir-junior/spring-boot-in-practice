@@ -3382,3 +3382,243 @@ org.hibernate.InstantiationException: No default constructor for entity:  : com.
 2023-05-14 16:36:30.372 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-05-14 16:36:30.372 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
 2023-05-14 16:36:30.372 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 16:50:29.508 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 16:50:30.059 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 16:50:30.083 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 20652 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 16:50:30.087 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 16:50:30.088 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 16:50:30.925 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 16:50:31.006 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2023-05-14 16:50:31.539 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 16:50:31.655 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 16:50:32.137 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 16:50:32.384 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 16:50:32.386 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 16:50:32.413 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 16:50:33.125 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 16:50:33.255 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 16:50:33.265 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:50:34.387 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.582 seconds (process running for 6.383)
+2023-05-14 16:50:34.812 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:50:34.814 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 16:50:34.816 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 16:51:19.307 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 16:51:19.827 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 16:51:19.855 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 20448 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 16:51:19.862 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 16:51:19.863 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 16:51:20.658 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 16:51:20.729 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+2023-05-14 16:51:21.230 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 16:51:21.329 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 16:51:21.802 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 16:51:22.052 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 16:51:22.054 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 16:51:22.088 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 16:51:22.813 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 16:51:22.957 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 16:51:22.967 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:51:24.097 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.52 seconds (process running for 6.148)
+2023-05-14 16:51:24.625 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:51:24.627 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 16:51:24.630 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 16:53:09.500 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 16:53:10.050 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 16:53:10.075 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 19832 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 16:53:10.081 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 16:53:10.082 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 16:53:10.885 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 16:53:10.971 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+2023-05-14 16:53:11.464 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 16:53:11.565 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 16:53:12.032 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 16:53:12.281 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 16:53:12.283 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 16:53:12.311 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 16:53:13.027 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 16:53:13.175 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 16:53:13.186 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:53:14.323 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.534 seconds (process running for 6.161)
+2023-05-14 16:53:14.860 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:53:14.862 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 16:53:14.866 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 16:54:07.714 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 16:54:08.253 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 16:54:08.281 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 9860 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 16:54:08.285 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 16:54:08.286 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 16:54:09.096 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 16:54:09.168 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-05-14 16:54:09.694 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 16:54:09.828 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 16:54:10.311 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 16:54:10.553 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 16:54:10.555 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 16:54:10.581 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 16:54:11.305 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 16:54:11.447 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 16:54:11.459 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:54:12.624 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.623 seconds (process running for 6.32)
+2023-05-14 16:54:13.183 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 16:54:13.185 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 16:54:13.190 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:03:07.179 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:03:07.713 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:03:07.740 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 25528 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:03:07.743 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:03:07.744 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:03:08.599 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:03:08.687 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:03:09.207 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:03:09.314 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:03:09.807 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:03:10.068 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:03:10.077 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:03:10.100 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:03:10.829 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:03:10.979 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:03:10.989 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:03:12.180 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.716 seconds (process running for 6.508)
+2023-05-14 17:03:12.681 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:03:12.683 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:03:12.687 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:07:55.772 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:07:56.309 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:07:56.334 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 13768 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:07:56.337 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:07:56.339 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:07:57.129 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:07:57.208 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:07:57.844 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:07:57.956 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:07:58.447 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:07:58.692 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:07:58.694 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:07:58.723 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:07:59.444 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:07:59.575 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:07:59.585 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:00.704 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.636 seconds (process running for 6.308)
+2023-05-14 17:08:01.283 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:01.286 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:08:01.288 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:08:10.350 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:08:10.878 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:08:10.904 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 19096 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:08:10.907 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:08:10.908 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:08:11.731 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:08:11.807 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:08:12.337 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:08:12.448 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:08:12.939 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:08:13.197 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:08:13.199 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:08:13.225 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:08:13.957 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:08:14.089 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:08:14.100 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:15.288 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.653 seconds (process running for 6.313)
+2023-05-14 17:08:15.810 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:15.811 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:08:15.814 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:08:45.628 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:08:46.240 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:08:46.266 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 19372 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:08:46.269 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:08:46.270 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:08:47.203 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:08:47.288 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:08:47.832 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:08:47.943 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:08:48.468 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:08:48.723 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:08:48.726 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:08:48.760 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:08:49.637 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:08:49.786 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:08:49.796 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:51.025 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 5.058 seconds (process running for 7.024)
+2023-05-14 17:08:51.536 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:08:51.538 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:08:51.541 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:09:09.903 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:09:10.435 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:09:10.463 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 12032 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:09:10.467 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:09:10.469 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:09:11.289 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:09:11.361 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:09:11.907 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:09:12.007 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:09:12.510 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:09:12.740 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:09:12.742 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:09:12.767 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:09:13.487 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:09:13.620 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:09:13.630 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:09:14.793 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.609 seconds (process running for 6.315)
+2023-05-14 17:09:15.364 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:09:15.368 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:09:15.373 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:09:46.735 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:09:47.269 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:09:47.298 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 11552 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:09:47.302 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:09:47.303 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:09:48.078 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:09:48.155 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:09:48.674 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:09:48.779 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:09:49.284 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:09:49.530 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:09:49.532 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:09:49.553 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:09:50.256 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:09:50.394 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:09:50.413 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:09:51.540 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.529 seconds (process running for 6.215)
+2023-05-14 17:09:52.025 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:09:52.027 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:09:52.029 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:10:24.418 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:10:24.937 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:10:24.963 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 4396 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:10:24.968 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:10:24.969 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:10:25.761 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:10:25.833 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:10:26.348 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:10:26.469 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:10:26.950 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:10:27.175 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:10:27.177 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:10:27.200 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:10:27.897 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:10:28.034 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:10:28.044 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:10:29.147 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.454 seconds (process running for 6.096)
+2023-05-14 17:10:29.743 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:10:29.745 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:10:29.748 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
+2023-05-14 17:12:09.626 [ INFO] [           main] t.c.s.AnnotationConfigContextLoaderUtils :Could not detect default configuration classes for test class [com.jj.springbootinpractice.course.CourseTest]: CourseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 17:12:10.155 [ INFO] [kground-preinit] o.h.v.i.u.Version                        :HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 17:12:10.181 [ INFO] [           main] c.j.s.c.CourseTest                       :Starting CourseTest using Java 20.0.1 with PID 13776 (started by jadir.junior in C:\Projects\spring-boot-in-practice)
+2023-05-14 17:12:10.184 [DEBUG] [           main] c.j.s.c.CourseTest                       :Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-14 17:12:10.186 [ INFO] [           main] c.j.s.c.CourseTest                       :No active profile set, falling back to 1 default profile: "default"
+2023-05-14 17:12:11.009 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 17:12:11.080 [ INFO] [           main] .s.d.r.c.RepositoryConfigurationDelegate :Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2023-05-14 17:12:11.589 [ INFO] [           main] o.h.j.i.u.LogHelper                      :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 17:12:11.699 [ INFO] [           main] o.h.Version                              :HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-14 17:12:12.179 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Starting...
+2023-05-14 17:12:12.402 [ INFO] [           main] c.z.h.p.HikariPool                       :HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:untitled user=ADMIN
+2023-05-14 17:12:12.405 [ INFO] [           main] c.z.h.HikariDataSource                   :HikariPool-1 - Start completed.
+2023-05-14 17:12:12.434 [ INFO] [           main] SQL dialect                              :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-14 17:12:13.132 [ INFO] [           main] o.h.m.i.EntityInstantiatorPojoStandard   :HHH000182: No default (no-argument) constructor for class: com.jj.springbootinpractice.user.User (class must be instantiated by Interceptor)
+2023-05-14 17:12:13.269 [ INFO] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 17:12:13.280 [ INFO] [           main] j.LocalContainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:12:14.360 [ INFO] [           main] c.j.s.c.CourseTest                       :Started CourseTest in 4.445 seconds (process running for 6.069)
+2023-05-14 17:12:14.874 [ INFO] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 17:12:14.876 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown initiated...
+2023-05-14 17:12:14.878 [ INFO] [ionShutdownHook] c.z.h.HikariDataSource                   :HikariPool-1 - Shutdown completed.
