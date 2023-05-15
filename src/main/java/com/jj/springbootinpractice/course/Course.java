@@ -11,15 +11,13 @@ import lombok.RequiredArgsConstructor;
 import java.util.UUID;
 
 @Entity
-@Table(name = "COURSES")
+@Table(name = "COURSE")
 @NamedQueries({
-        @NamedQuery(
-                name = "Course.findAllByCategoryAndRating",
-                query = "select c from Course c where c.category=?1 and c.rating=?2"),
-        @NamedQuery(
-                name = "Course.findAllByRating",
-                query = "select c from Course c where c.rating=?1"
-        )
+        @NamedQuery(name = "Course.findAllByCategoryAndRating", query = "select c from Course c where c.category=?1 and c.rating=?2"),
+// @NamedQuery(
+// name = "Course.findAllByRating",
+// query = "select c from Course c where c.rating=?1"
+// )
 })
 @Data
 @NoArgsConstructor(force = true)
